@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.navBar {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 130px;
+    cursor: pointer;
+}
+
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: red
+}
