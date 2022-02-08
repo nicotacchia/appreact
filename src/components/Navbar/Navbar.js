@@ -1,4 +1,8 @@
+import react from 'react';
 import './NavBar.css';
+import CartWidget from '../CartWidget.js/CartWidget';
+import { GoThreeBars } from "react-icons/go";
+
 
 const Navbar = () => {
     return (
@@ -10,7 +14,7 @@ const Navbar = () => {
            <li><a href="a">Gimnasio</a></li>
            <li><a href="a">Deportes </a></li>
            <li><a href="a">Cardio</a></li>
-          
+           <CartWidget/>        
        </ul>
        </div>
       </nav>
